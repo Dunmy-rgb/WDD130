@@ -5,13 +5,25 @@
   padding: 0;
 } */
 
+/* root */
+
+:root {
+  --heading-background-color: #f06;
+  --heading-text-color: #333;
+  --color: #fff;
+  --heading-font: 'Montserrat', Helvetica, sans-serif;
+  --padding: 1rem;
+  --margin: 1rem;
+  --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
 .callout {
   max-width: 400px;
-  margin: 1rem;
+  margin: var(--margin);
   border: 1px solid black;
-  padding: 1rem;
+  padding: var(--padding);
   background-color: #224477;
-  color: #fff;
+  color: var(--color);
 
 }
 

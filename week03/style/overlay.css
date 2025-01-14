@@ -3,10 +3,19 @@
   padding: 0;
 }
 
+
+:root {
+  --heading-background-color: #f06;
+  --heading-text-color: #333;
+  --heading-font: Roboto, Arial, sans-serif;
+  --padding: 1rem;
+  --border-rgb: 1px solid rgb(0 0 0 / 0.1);
+}
+
 main {
   max-width: 800px;
   margin: 2rem auto;
-  font-family: Roboto, Arial, sans-serif;
+  font-family: var(--heading-font);
 }
 
 h2 {
