@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --primary-color: #0BCCE0;
+  --secondary-color: #101419;
+  --accent1-color: #D3D3D3;
+  --accent2-color: #9E0701;
+  --heading-font: 'Montserrat', Helvetica, sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  background: var(--accent1-color);
+  /* max-width: 1140px; */
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-family: var(--heading-font);
+}
+
+a {
+  text-decoration: none;
+}
+
+.header,
+.main,
+.footer {
+  position: relative;
+
+}
+
+.header {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width:140px;
+  height: auto;
+}
+
+.hero {
+  position: relative;
+  
+}
+
+.hero > img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.hero > h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 25px;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  
+}
+
+article {
+  background-color: #e0dfdff1;
+}
+
+article > img {
+  position: absolute;
+  float: right;
+  width: 100px;
+  height: auto;
+  top: 120px;
+  right: 100px;
+}
+
+article > p {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: auto;
+  position: absolute;
+  float: left;
+  top: 120px;
+  max-width: 850px;
+  margin-left: 50px;
+  /* top: 50%; */
+  /* left: 50%; */
+  /* top: 25px; */
+  /* transform: translate(-50%, -50%); */
+}
+
