@@ -108,10 +108,6 @@ article > p {
   /* transform: translate(-50%, -50%); */
 }
 
-.ad_section {
-  display: ;
-}
-
 .footer {
   background-color: var(--primary-color);
   display: flex;
