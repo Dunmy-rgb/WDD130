@@ -48,6 +48,15 @@ a {
 .header img {
   width:140px;
   height: auto;
+  padding-left: 80px;
+}
+
+.h_nav {
+  padding-right: 80px;
+}
+
+.link {
+  margin-right: 10px;
 }
 
 .hero {
@@ -73,6 +82,7 @@ a {
 
 article {
   background-color: #e0dfdff1;
+  margin: 0 auto;
 }
 
 article > img {
@@ -91,10 +101,34 @@ article > p {
   float: left;
   top: 120px;
   max-width: 850px;
-  margin-left: 50px;
+  margin-left: 100px;
   /* top: 50%; */
   /* left: 50%; */
   /* top: 25px; */
   /* transform: translate(-50%, -50%); */
 }
 
+.ad_section {
+  display: ;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  padding-left: 90px;
+}
+
+nav {
+  padding-left: 90px;
+  display: flex;
+}
+
+#whatsapp {
+  width: 60px;
+  height: auto;
+}
