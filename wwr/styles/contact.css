@@ -49,6 +49,7 @@ body {
   display: block;
 }
 
+/* Hover */
 .h_nav a:hover {
   color: var(--accent2-color);
   font-weight: 600;
