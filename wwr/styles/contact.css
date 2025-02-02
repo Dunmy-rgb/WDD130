@@ -1,57 +1,67 @@
 /* Global Styles */
+:root {
+  --secondary-color: #101419;
+}
+
 body {
+  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
-/* Header & Navigation */
 .header {
-  display: flex;
-  justify-content: space-between;
+  background-color: var(--secondary-color);
+  display: grid;
+  grid-template-columns: 150px auto;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 15px 20px;
-  background-color: #0a0a0a; /* Dark background */
-  color: white;
-  width: 58%;
-  margin: auto;
+  gap: 30px;
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
 }
+
 
 .header img {
-  height: 60px; /* Adjusted size */
+  width:140px;
+  height: auto;
 }
 
 .h_nav {
-  list-style: none;
   display: flex;
-  gap: 30px;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
 }
 
 .h_nav li {
-  display: inline;
+  flex: 1 1 auto;
+  margin: 0 10px;
 }
 
 .h_nav a {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-  transition: color 0.3s ease;
+  display: block;
 }
 
 .h_nav a:hover {
-  color: #0077b6; /* Light blue hover effect */
+  color: var(--accent2-color);
+  font-weight: 600;
+  
 }
-/* 
-.h_nav a:visited {
-  color: white;
-} */
+
+.link {
+  margin-right: 10px;
+}
+
+
 
 /* Main Layout */
 .main {
-  width: 80%;
-  max-width: 1000px;
   margin: 20px auto;
   background: white;
   padding: 20px;
