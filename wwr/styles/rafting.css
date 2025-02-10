@@ -375,6 +375,16 @@ figcaption {
   width: 100%;
 }
 
+#homes {
+  text-align: center;
+  max-width: 1050px;
+  margin: 15px auto;
+  padding: 15px;
+  font-size: 17px;
+  background-color: rgba(245, 245, 245, 0.852);
+  height: 100%;
+}
+
 .u_list {
   display: flex;
   flex-wrap: wrap;
