@@ -294,11 +294,6 @@ figcaption {
   transition: border-color 0.3s;
 }
 
-iframe {
-  width: 600;
-  height: 450;
-}
-
 .contact-form input:focus,
 .contact-form textarea:focus {
   border-color: #0077b6;
